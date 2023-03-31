@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "author": "Sale Niinistö",
+    "title": "How to lead your country to NATO - my story",
+    "url": "http://tpkanslia.com/nato-blog"
+}
