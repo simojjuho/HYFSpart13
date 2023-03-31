@@ -1,0 +1,25 @@
+{
+  "name": "bloglist-backend",
+  "version": "0.0.1",
+  "description": "Backend for bloglist app using Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simojjuho/HYFSpart13.git"
+  },
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "full-stack",
+    "studies"
+  ],
+  "author": "Juho Simojoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simojjuho/HYFSpart13/issues"
+  },
+  "homepage": "https://github.com/simojjuho/HYFSpart13#readme"
+}
