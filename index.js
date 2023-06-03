@@ -18,6 +18,17 @@ app.post('/api/blogs', async (req, res) => {
     res.json(blog)
 })
 
+app.delete('/api/blogs/:id', async (req, res) => {
+    const id = req.params.id
+    const blog = await Blog.findByPk(id)
+    if (blog) {
+        await blog.destroy()
+        res.status(201)
+    } else {
+        res.status(400).json({ error: 'Did not find with such a key.'})
+    }
+})
+
 app.get('/test', async (req, res) => {
     res.send('Testing endpoint')
 })

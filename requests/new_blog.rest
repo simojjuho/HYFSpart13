@@ -2,7 +2,7 @@ POST http://localhost:3001/api/blogs
 Content-Type: application/json
 
 {
-    "author": "Sale Niinistö",
-    "title": "How to lead your country to NATO - my story",
+    "author": "Aleksi Salin",
+    "title": "How to make a baby with your step mom - a walkthrough",
     "url": "http://tpkanslia.com/nato-blog"
 }
